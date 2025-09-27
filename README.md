@@ -1,5 +1,4 @@
-README: |
-  # 🎯 Data Warehouse Project (Udacity Nanodegree)
+ # 🎯 Data Warehouse Project (Udacity Nanodegree)
 
   This project builds a cloud-based data warehouse using Amazon Redshift. It extracts and transforms raw JSON log data from S3 and loads it into Redshift staging tables, then transforms it into analytics-ready fact and dimension tables using a star schema.
 
