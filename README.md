@@ -2,7 +2,7 @@
 
   This project builds a cloud-based data warehouse using Amazon Redshift. It extracts and transforms raw JSON log data from S3 and loads it into Redshift staging tables, then transforms it into analytics-ready fact and dimension tables using a star schema.
 
-  ## 📁 Project Structure
+  ## Project Structure
 
   ├── create_tables.py      # Drops and creates tables in Redshift  
   ├── etl.py                # Loads data from S3 and inserts it into star schema  
@@ -10,7 +10,7 @@
   ├── dwh.cfg               # Redshift, IAM, and S3 configurations  
   └── README.md             # Project documentation
 
-  ## ⚙️ How to Run
+  ## How to Run
 
   1. Configure your `dwh.cfg` file:
      - Redshift cluster endpoint and credentials
